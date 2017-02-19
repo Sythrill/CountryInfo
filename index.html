@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="http://www.webglearth.com/v2/api.js"></script>
+        <title>Search engine</title>
+    </head>
+    <body onload="initialize()">
+        <h1>Search for country</h1>
+        <input id="country-name" type="text" onload="avaliableCountries()"/>
+        <button id="search">Search for country</button>
+        
+        <h2>Coutry info:</h2>
+        <ul id="countries">
+            <li>Brak danych</li>
+        </ul>     
+        <div id="earth_div"></div>
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
