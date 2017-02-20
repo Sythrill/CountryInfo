@@ -21,6 +21,7 @@ h1 {
 h2 {
     margin-left: 50px;
 }
+
 img {
     width: 200px;
     height: 100px;   
@@ -65,7 +66,6 @@ li:nth-child(odd) > .item  {
     background: #D9853B;
 }
 
-
 li:nth-child(even) > .value {
     background: #74AFAD;
 }
@@ -89,6 +89,7 @@ li:last-child {
 .ui-helper-hidden-accessible {
     display: none;
 }
+
 .ui-menu-item {
     list-style: none;  
     display: block;
@@ -97,10 +98,12 @@ li:last-child {
     background: #D9853B;
     z-index: 1;
 }
+
 .ui-menu-item > div {
     background: #D9853B;
     width: 200px;
 }
+
 #country-name {
     margin: 30px;
     width: 200px;
