@@ -1,0 +1,123 @@
+* {
+     box-sizing: border-box;
+}
+
+#countries li {
+    list-style: none;
+    clear: both;
+}
+
+body {
+     background: #262228;
+     margin: 0;
+     padding: 0;
+     color: #F6F6F6;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+img {
+    width: 200px;
+    height: 100px;   
+}
+
+div {
+    float: left;
+    text-align: center;
+}
+
+.image, .country {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.item {
+    width: 150px;
+    height: 30px;
+    text-align: right;
+}
+
+.value {
+    width: 600px;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+li:nth-child(even) > .item  {
+    background: #74AFAD;
+}
+
+li:nth-child(odd) > .item  {
+    background: #D9853B;
+}
+
+li:nth-child(even) > .value {
+    background: #74AFAD;
+}
+
+li:nth-child(odd) > .value {
+    background: #D9853B;
+}
+
+li:last-child {
+    margin-bottom: 50px;
+}
+
+#earth_div {
+    width: 400px;
+    height: 400px;
+    position: fixed !important;
+    top: 30vh;
+    right:10vw;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ui-menu-item {
+    list-style: none;  
+    display: block;
+    clear: both;
+    color: #F6F6F6;
+    background: #D9853B;
+    z-index: 1;
+}
+
+.ui-menu-item > div {
+    background: #D9853B;
+    width: 200px;
+}
+
+#country-name {
+    margin: 30px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#search {
+    background: #D9853B;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#search:hover {
+    cursor: pointer;
+}
